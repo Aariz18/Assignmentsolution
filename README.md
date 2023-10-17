@@ -1,2 +1,0 @@
-# Coursera.github.io
-Coursera
