@@ -1,0 +1,48 @@
+ p {
+            margin-right: 10px;
+            margin-left: 10px;
+            border: solid 3px black;
+            background-color: #f2f2f2;
+            height: 1000px;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            background-color: #ffffff;
+        }
+        .dropdown-menu {
+            position: absolute;
+            background-color: #fff;
+            z-index: 1000;
+        }
+        .dropdown-title {
+            text-align: center;
+            background-color: #fff;
+            padding: 10px;
+        }
+        .content {
+            margin-top: 60px; /* Space for the title */
+        }
+        h1 {
+            margin-top: 150px;
+        }
+
+        /* Internal styles for dropdown options */
+        .dropdown-menu li:nth-child(1) a {
+            background-color: #FF5733;
+            color: white;
+        }
+        .dropdown-menu li:nth-child(2) a {
+            background-color: #3498DB;
+            color: white;
+        }
+        .dropdown-menu li:nth-child(3) a {
+            background-color: #27AE60;
+            color: white;
+        }
+        /* Center-align the dropdown menu items */
+.dropdown-menu.text-center {
+    text-align: center;
+}
